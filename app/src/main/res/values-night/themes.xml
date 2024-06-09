@@ -1,17 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PDFReader" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Base.Theme.PDFReader" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
-        <item name="colorPrimaryDark">#4e4e4e</item>
-        <item name="colorPrimary">#4e4e4e</item>
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
-
-
-    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
-        <item name="colorPrimaryDark">#4e4e4e</item>
-        <item name="colorPrimary">#4e4e4e</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
 </resources>

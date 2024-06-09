@@ -1,17 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PDFReader" parent="Theme.AppCompat.DayNight.DarkActionBar">
-
-        <item name="colorPrimaryDark">#4e4e4e</item>
-        <item name="colorPrimary">#4e4e4e</item>
+    <style name="Base.Theme.PDFReader" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
-    <style name="Theme.PDFReader" parent="Base.Theme.PDFReader" />
-
-    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
-        <item name="colorPrimaryDark">#4e4e4e</item>
-        <item name="colorPrimary">#4e4e4e</item>
+    <style name="Theme.PDFReader" parent="Base.Theme.PDFReader" >
         <item name="android:windowIsTranslucent">true</item>
     </style>
 </resources>
